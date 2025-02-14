@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 # Load the saved model
 with open("model.pkl", "rb") as file:
